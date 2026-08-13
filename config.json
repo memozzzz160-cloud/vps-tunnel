@@ -1,4 +1,4 @@
-here{
+{
   "log": {
     "loglevel": "none"
   },
@@ -18,7 +18,10 @@ here{
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/api/v1/ws-tunnel/"
+          "path": "/api/v1/ws-tunnel/",
+          "headers": {
+            "Host": "vps-production-8737.up.railway.app"
+          }
         }
       }
     }
